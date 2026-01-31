@@ -1,0 +1,10 @@
+.section {
+    min-height: 100vh;
+    background: 
+        var(--bg-img, none),
+        var(--bg, transparent);
+    background-size: cover, cover;
+    background-position: center, center;
+    box-sizing: border-box;
+    display: flex;
+}

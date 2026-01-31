@@ -1,0 +1,15 @@
+.shop__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    gap: 20px;
+}
+
+.container__cards {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}

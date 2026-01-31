@@ -1,0 +1,22 @@
+.title {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    font-size: 70px;
+    color: #2e2e2e;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subtitle {
+    color: var(--subColor, #2e2e2e);
+}
+
+.paragraph {
+    color: #2e2e2e;
+}
