@@ -1,0 +1,11 @@
+.image__container {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    flex: 1;
+}
+
+.image {
+    width: var(--width);
+    height: 100%;
+}
