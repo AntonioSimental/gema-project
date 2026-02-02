@@ -56,7 +56,7 @@ export function Shop () {
                     <CardForms theme="#d9d9d9" >
                         <Subtitle text="SHOPPING CART" />
                         <TextContainer>
-                            <Paragraph text="Coming Soon..." />
+                            <Paragraph text="Add a service..." />
                         </TextContainer>
                     </CardForms>
                 </div>
