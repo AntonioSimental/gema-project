@@ -11,7 +11,7 @@ async function loginController(req, res) {
     // Query to database
     const [rows] = await db.query(query, [correo]);
 
-    // Validation if exist the user
+    // Validation if exist user
     if (rows.length === 0) {
       return res.status(401).json({ msg: "Invalid credentials" });
     }
