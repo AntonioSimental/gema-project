@@ -18,6 +18,7 @@ import inventoryImage from "../assets/inventoryImage.png";
 import rhImage from "../assets/rhImage.png";
 import financeImage from "../assets/fincanceImage.png";
 import logisticsImage from "../assets/logisticsImage.png";
+import Footer from "../components/footer";
 
 export function InfoPage() {
     return (
@@ -138,6 +139,8 @@ export function InfoPage() {
                     </div>
                 </div>
         </Section>
+
+        <Footer />
         </div>
     );
 }
